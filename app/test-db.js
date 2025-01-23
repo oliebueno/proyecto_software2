@@ -6,8 +6,8 @@ async function main() {
   // Creación del usuario
   const newUser  = await prisma.USER.create({
     data: {
-      name: 'Oliver Bueno',
-      email: 'oliver@gmail.com',
+      name: 'Jose Alfonzo',
+      email: 'jose@gmail.com',
     },
   });
   console.log('Usuario creado:', newUser );
